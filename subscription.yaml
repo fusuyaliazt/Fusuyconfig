@@ -1,6 +1,6 @@
 proxies:
 
-- name: satujuXXXXXX
+- name: vilok
   type: trojan
   server: sg3.6n6.net
   port: 443
