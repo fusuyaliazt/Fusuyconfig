@@ -1,6 +1,6 @@
 proxies:
 
-- name: satujuuuxxxx
+- name: satujuXXXXXX
   type: trojan
   server: sg3.6n6.net
   port: 443
