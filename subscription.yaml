@@ -1,0 +1,38 @@
+proxies:
+
+- name: satuuuuuuu
+  type: trojan
+  server: sg3.6n6.net
+  port: 443
+  password: 0e7eaf90-d536-11ef-9aa3-1239d0255272
+  udp: true
+  sni: static-quiz.prod.vidiocdn.com
+  skip-cert-verify: true
+  
+- name: dua
+  type: trojan
+  server: sg3.6n6.net
+  port: 443
+  password: fc454f00-d3f0-11ef-a995-1239d0255272
+  udp: true
+  sni: static-quiz.prod.vidiocdn.com
+  skip-cert-verify: true
+
+- name: 3
+  type: trojan
+  server: sg3.6n6.net
+  port: 443
+  password: fc454f00-d3f0-11ef-a995-1239d0255272
+  udp: true
+  sni: static-quiz.prod.vidiocdn.com
+  skip-cert-verify: true
+
+- name: opat
+  type: trojan
+  server: sg3.6n6.net
+  port: 443
+  password: 85ccaca0-d34d-11ef-a693-1239d0255272
+  udp: true
+  sni: static-quiz.prod.vidiocdn.com
+  skip-cert-verify: true
+
