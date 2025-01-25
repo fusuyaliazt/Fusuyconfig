@@ -1,10 +1,10 @@
 proxies:
-- name: fhjdsfg_trojan_3869
+- name: iflix 1
   server: sg3.6n6.net
   port: 443
   type: trojan
   password: 9c1f1200-dabf-11ef-a35c-1239d0255272
-  sni: static-quiz.prod.vidiocdn.com
+  sni: live.iflix.com
   skip-cert-verify: true
   udp: true
   network: ws
@@ -13,16 +13,25 @@ proxies:
     headers:
       Host: sg3.6n6.net
 
-- name: vilokkkoooo
+- name: iglix 2
   type: trojan
   server: sg3.6n6.net
   port: 443
   password: 0e7eaf90-d536-11ef-9aa3-1239d0255272
   udp: true
-  sni: static-quiz.prod.vidiocdn.com
+  sni: live.iflix.com
   skip-cert-verify: true
   
-- name: dua
+- name: iflix 3
+  type: trojan
+  server: sg3.6n6.net
+  port: 443
+  password: fc454f00-d3f0-11ef-a995-1239d0255272
+  udp: true
+  sni: live.iflix.com
+  skip-cert-verify: true
+
+- name:vidio
   type: trojan
   server: sg3.6n6.net
   port: 443
@@ -31,21 +40,12 @@ proxies:
   sni: static-quiz.prod.vidiocdn.com
   skip-cert-verify: true
 
-- name: BOOOL KUDA
-  type: trojan
-  server: sg3.6n6.net
-  port: 443
-  password: fc454f00-d3f0-11ef-a995-1239d0255272
-  udp: true
-  sni: static-quiz.prod.vidiocdn.com
-  skip-cert-verify: true
-
-- name: opat
+- name: iflix
   type: trojan
   server: sg3.6n6.net
   port: 443
   password: 85ccaca0-d34d-11ef-a693-1239d0255272
   udp: true
-  sni: static-quiz.prod.vidiocdn.com
+  sni: live.iflix.com
   skip-cert-verify: true
 
