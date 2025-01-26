@@ -1,5 +1,5 @@
 proxies:
-- name: iflix 1
+- name: iflix
   server: sg3.6n6.net
   port: 443
   type: trojan
@@ -13,7 +13,7 @@ proxies:
     headers:
       Host: sg3.6n6.net
 
-- name: iglix 2
+- name: iflix dua
   type: trojan
   server: sg3.6n6.net
   port: 443
