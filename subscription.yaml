@@ -38,14 +38,3 @@ proxies:
   password: fc454f00-d3f0-11ef-a995-1239d0255272
   udp: true
   sni: static-quiz.prod.vidiocdn.com
-  skip-cert-verify: true
-
-- name: iflix
-  type: trojan
-  server: sg3.6n6.net
-  port: 443
-  password: 85ccaca0-d34d-11ef-a693-1239d0255272
-  udp: true
-  sni: live.iflix.com
-  skip-cert-verify: true
-
