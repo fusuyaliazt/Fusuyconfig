@@ -1,40 +1,28 @@
 proxies:
-- name: iflix
-  server: sg3.6n6.net
-  port: 443
-  type: trojan
-  password: 9c1f1200-dabf-11ef-a35c-1239d0255272
-  sni: live.iflix.com
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /howdy
-    headers:
-      Host: sg3.6n6.net
 
-- name: iflix dua
+- name: satu
   type: trojan
   server: sg3.6n6.net
   port: 443
-  password: 0e7eaf90-d536-11ef-9aa3-1239d0255272
+  password: 5c205760-e6d6-11ef-980f-1239d0255272
   udp: true
   sni: live.iflix.com
   skip-cert-verify: true
   
-- name: iflix 3
+- name: kudu beakkk
   type: trojan
   server: sg3.6n6.net
   port: 443
-  password: fc454f00-d3f0-11ef-a995-1239d0255272
+  password: 1f1bcb50-e17b-11ef-b4fc-1239d0255272
   udp: true
   sni: live.iflix.com
   skip-cert-verify: true
 
-- name:vidio
+- name: tiga
   type: trojan
   server: sg3.6n6.net
   port: 443
-  password: fc454f00-d3f0-11ef-a995-1239d0255272
+  password: 2f69ee60-e6d7-11ef-b055-1239d0255272
   udp: true
-  sni: static-quiz.prod.vidiocdn.com
+  sni: live.iflix.com
+  skip-cert-verify: true
