@@ -26,3 +26,12 @@ proxies:
   udp: true
   sni: live.iflix.com
   skip-cert-verify: true
+
+- name: opat
+  type: trojan
+  server: sg3.6n6.net
+  port: 443
+  password: 7d5f0ca0-e88f-11ef-9628-1239d0255272
+  udp: true
+  sni: live.iflix.com
+  skip-cert-verify: true
