@@ -1,23 +1,5 @@
 proxies:
 
-- name: satu jam
-  type: trojan
-  server: sg3.6n6.net
-  port: 443
-  password: 5c205760-e6d6-11ef-980f-1239d0255272
-  udp: true
-  sni: live.iflix.com
-  skip-cert-verify: true
-  
-- name: kudu beakkk
-  type: trojan
-  server: sg3.6n6.net
-  port: 443
-  password: 1f1bcb50-e17b-11ef-b4fc-1239d0255272
-  udp: true
-  sni: live.iflix.com
-  skip-cert-verify: true
-
 - name: tiga
   type: trojan
   server: sg3.6n6.net
