@@ -1,6 +1,6 @@
 proxies:
 
-- name: tiga
+- name: Satu
   type: trojan
   server: sg3.6n6.net
   port: 443
@@ -9,7 +9,7 @@ proxies:
   sni: live.iflix.com
   skip-cert-verify: true
 
-- name: opat
+- name: Dua
   type: trojan
   server: sg3.6n6.net
   port: 443
@@ -18,7 +18,7 @@ proxies:
   sni: live.iflix.com
   skip-cert-verify: true
 
-- name: lima
+- name: Tiga
   type: trojan
   server: sg3.6n6.net
   port: 443
@@ -27,7 +27,7 @@ proxies:
   sni: live.iflix.com
   skip-cert-verify: true
 
-- name: genep
+- name: Empat
   type: trojan
   server: sg3.6n6.net
   port: 443
@@ -36,3 +36,19 @@ proxies:
   sni: live.iflix.com
   skip-cert-verify: true
 
+- name: ID
+  server: id3.khusus.vip
+  port: 443
+  type: vmess
+  uuid: f57e2e07-6e33-4d6e-bc43-75aed43a3dc1
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: vplay.iflix.com
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vmess-ws
+    headers:
+      Host: id3.khusus.vip
