@@ -53,7 +53,7 @@ proxies:
     headers:
       Host: id3.khusus.vip
 
-- name: 7
+- name: usuy gogo
   type: trojan
   server: sg3.6n6.net
   port: 443
@@ -62,7 +62,7 @@ proxies:
   sni: live.iflix.com
   skip-cert-verify: true
 
-- name: 8
+- name: fusuy lima
   type: trojan
   server: sg3.6n6.net
   port: 443
@@ -71,7 +71,7 @@ proxies:
   sni: live.iflix.com
   skip-cert-verify: true
 
-- name: 10
+- name: fusuy satu
   type: trojan
   server: sg3.6n6.net
   port: 443
@@ -80,7 +80,7 @@ proxies:
   sni: live.iflix.com
   skip-cert-verify: true
 
-- name: 9
+- name: fusuy dua
   type: trojan
   server: sg3.6n6.net
   port: 443
