@@ -52,3 +52,39 @@ proxies:
     path: /vmess-ws
     headers:
       Host: id3.khusus.vip
+
+- name: 7
+  type: trojan
+  server: sg3.6n6.net
+  port: 443
+  password: ed62bd70-ed08-11ef-9d52-1239d0255272
+  udp: true
+  sni: live.iflix.com
+  skip-cert-verify: true
+
+- name: 8
+  type: trojan
+  server: sg3.6n6.net
+  port: 443
+  password: 15eb0be0-ed09-11ef-8b0f-1239d0255272
+  udp: true
+  sni: live.iflix.com
+  skip-cert-verify: true
+
+- name: 10
+  type: trojan
+  server: sg3.6n6.net
+  port: 443
+  password: 35894c00-ed09-11ef-8421-1239d0255272
+  udp: true
+  sni: live.iflix.com
+  skip-cert-verify: true
+
+- name: 9
+  type: trojan
+  server: sg3.6n6.net
+  port: 443
+  password: 575cbd30-ed09-11ef-bf6d-1239d0255272
+  udp: true
+  sni: live.iflix.com
+  skip-cert-verify: true
