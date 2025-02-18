@@ -1,4 +1,4 @@
-yaproxies:
+proxies:
 
 - name: Satu
   type: trojan
