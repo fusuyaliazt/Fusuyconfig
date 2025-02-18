@@ -71,6 +71,17 @@ proxies:
   sni: live.iflix.com
   skip-cert-verify: true
 
+- name: Shadowsocks Plugin Obfs
+  type: ss
+  server: 86.38.247.109
+  port: 2593
+  cipher: chacha20-ietf-poly1305
+  password: u3070950670
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: live.iflix.com
+
 - name: puluh
   type: trojan
   server: sg3.6n6.net
