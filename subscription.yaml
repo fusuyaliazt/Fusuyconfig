@@ -71,7 +71,7 @@ proxies:
   sni: live.iflix.com
   skip-cert-verify: true
   
-- name: puluh jos
+- name: pullkkk
   type: trojan
   server: sg3.6n6.net
   port: 443
