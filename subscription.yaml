@@ -27,15 +27,6 @@ proxies:
   sni: live.iflix.com
   skip-cert-verify: true
 
-- name: Empat
-  type: trojan
-  server: sg3.6n6.net
-  port: 443
-  password: 89706540-e948-11ef-911f-1239d0255272
-  udp: true
-  sni: live.iflix.com
-  skip-cert-verify: true
-
 - name: ID
   server: id3.khusus.vip
   port: 443
