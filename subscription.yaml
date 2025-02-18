@@ -53,7 +53,7 @@ proxies:
   sni: live.iflix.com
   skip-cert-verify: true
 
-- name: lapan
+- name: lapangan
   type: trojan
   server: sg3.6n6.net
   port: 443
