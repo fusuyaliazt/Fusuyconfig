@@ -1,4 +1,4 @@
-proxies:
+yaproxies:
 
 - name: Satu
   type: trojan
@@ -82,7 +82,7 @@ proxies:
     mode: tls
     host: live.iflix.com
 
-- name: puluh
+- name: puluh jos
   type: trojan
   server: sg3.6n6.net
   port: 443
