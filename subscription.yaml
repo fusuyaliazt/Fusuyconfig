@@ -6,7 +6,7 @@ proxies:
   port: 443
   password: 2f69ee60-e6d7-11ef-b055-1239d0255272
   udp: true
-  sni: live.iflix.com
+  sni: token-media-vidio-com.akamaized.net
   skip-cert-verify: true
 
 - name: Dua
@@ -15,7 +15,7 @@ proxies:
   port: 443
   password: 7d5f0ca0-e88f-11ef-9628-1239d0255272
   udp: true
-  sni: live.iflix.com
+  sni: token-media-vidio-com.akamaized.net
   skip-cert-verify: true
 
 - name: Tiga
@@ -24,7 +24,7 @@ proxies:
   port: 443
   password: 5b6f5620-e948-11ef-aff6-1239d0255272
   udp: true
-  sni: live.iflix.com
+  sni: token-media-vidio-com.akamaized.net
   skip-cert-verify: true
 
 - name: ID
@@ -35,7 +35,7 @@ proxies:
   alterId: 0
   cipher: auto
   tls: true
-  servername: vplay.iflix.com
+  servername: token-media-vidio-com.akamaized.net
   skip-cert-verify: true
   udp: true
   network: ws
@@ -50,7 +50,7 @@ proxies:
   port: 443
   password: ed62bd70-ed08-11ef-9d52-1239d0255272
   udp: true
-  sni: live.iflix.com
+  sni: token-media-vidio-com.akamaized.net
   skip-cert-verify: true
 
 - name: lapangan
@@ -59,7 +59,7 @@ proxies:
   port: 443
   password: 15eb0be0-ed09-11ef-8b0f-1239d0255272
   udp: true
-  sni: live.iflix.com
+  sni: token-media-vidio-com.akamaized.net
   skip-cert-verify: true
 
 - name: bilan
@@ -68,7 +68,7 @@ proxies:
   port: 443
   password: 35894c00-ed09-11ef-8421-1239d0255272
   udp: true
-  sni: live.iflix.com
+  sni: token-media-vidio-com.akamaized.net
   skip-cert-verify: true
   
 - name: pullkkk
@@ -77,5 +77,5 @@ proxies:
   port: 443
   password: 575cbd30-ed09-11ef-bf6d-1239d0255272
   udp: true
-  sni: live.iflix.com
+  sni: token-media-vidio-com.akamaized.net
   skip-cert-verify: true
