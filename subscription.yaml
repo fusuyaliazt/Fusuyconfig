@@ -9,7 +9,7 @@ proxies:
   sni: token-media-vidio-com.akamaized.net
   skip-cert-verify: true
 
-- name: Dua
+- name: Dua dua
   type: trojan
   server: sg3.6n6.net
   port: 443
