@@ -1,6 +1,6 @@
 proxies:
 
-- name: Satu
+- name: Satu satu
   type: trojan
   server: sg3.6n6.net
   port: 443
@@ -62,7 +62,7 @@ proxies:
   sni: token-media-vidio-com.akamaized.net
   skip-cert-verify: true
 
-- name: bilan
+- name: bilan bilan
   type: trojan
   server: sg3.6n6.net
   port: 443
