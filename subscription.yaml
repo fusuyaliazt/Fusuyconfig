@@ -1,10 +1,10 @@
 proxies:
 
-- name: Satu satu
+- name: Satu Neww
   type: trojan
   server: sg3.6n6.net
   port: 443
-  password: 2f69ee60-e6d7-11ef-b055-1239d0255272
+  password: 0281b8c0-f872-11ef-b782-1239d0255272
   udp: true
   sni: token-media-vidio-com.akamaized.net
   skip-cert-verify: true
