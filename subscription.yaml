@@ -9,7 +9,7 @@ proxies:
   sni: token-media-vidio-com.akamaized.net
   skip-cert-verify: true
 
-- name: ID
+- name: PREM
   server: id3.khusus.vip
   port: 443
   type: vmess
@@ -25,4 +25,3 @@ proxies:
     path: /vmess-ws
     headers:
       Host: id3.khusus.vip
-
