@@ -9,15 +9,6 @@ proxies:
   sni: token-media-vidio-com.akamaized.net
   skip-cert-verify: true
 
-- name: Dua dua
-  type: trojan
-  server: sg3.6n6.net
-  port: 443
-  password: 7d5f0ca0-e88f-11ef-9628-1239d0255272
-  udp: true
-  sni: token-media-vidio-com.akamaized.net
-  skip-cert-verify: true
-
 - name: ID
   server: id3.khusus.vip
   port: 443
@@ -34,33 +25,4 @@ proxies:
     path: /vmess-ws
     headers:
       Host: id3.khusus.vip
-
-- name: tujuh
-  type: trojan
-  server: sg3.6n6.net
-  port: 443
-  password: ed62bd70-ed08-11ef-9d52-1239d0255272
-  udp: true
-  sni: token-media-vidio-com.akamaized.net
-  skip-cert-verify: true
-
-- name: lapangan
-  type: trojan
-  server: sg3.6n6.net
-  port: 443
-  password: 15eb0be0-ed09-11ef-8b0f-1239d0255272
-  udp: true
-  sni: token-media-vidio-com.akamaized.net
-  skip-cert-verify: true
-
-- name: bilan bilan
-  type: trojan
-  server: sg3.6n6.net
-  port: 443
-  password: 35894c00-ed09-11ef-8421-1239d0255272
-  udp: true
-  sni: token-media-vidio-com.akamaized.net
-  skip-cert-verify: true
- 
-
 
