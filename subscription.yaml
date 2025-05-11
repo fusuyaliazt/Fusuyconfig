@@ -22,11 +22,11 @@ proxies:
   server: id3.khusus.vip
   port: 443
   type: vmess
-  uuid: f57e2e07-6e33-4d6e-bc43-75aed43a3dc1
+  uuid: 6ca4a5f5-ee1a-4187-a973-43f47348b310
   alterId: 0
   cipher: auto
   tls: true
-  servername: token-media-vidio-com.akamaized.net
+  servername: instagram.fcgk3-2.fna.fbcdn.net
   skip-cert-verify: true
   udp: true
   network: ws
