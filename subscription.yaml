@@ -1,27 +1,17 @@
 proxies:
 
-- name: Satu Neww
-  type: trojan
-  server: sg3.6n6.net
+- name: fusuy
+  server: id.v2vless.site
   port: 443
-  password: 0281b8c0-f872-11ef-b782-1239d0255272
-  udp: true
-  sni: token-media-vidio-com.akamaized.net
-  skip-cert-verify: true
-
-- name: PREM
-  server: id3.khusus.vip
-  port: 443
-  type: vmess
-  uuid: 6ca4a5f5-ee1a-4187-a973-43f47348b310
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: I_Love_🇵🇸_sshOcean_aa62
   tls: true
   servername: instagram.fcgk3-2.fna.fbcdn.net
   skip-cert-verify: true
   udp: true
   network: ws
   ws-opts:
-    path: /vmess-ws
+    path: /vless
     headers:
-      Host: id3.khusus.vip
+      Host: id.v2vless.site
+
