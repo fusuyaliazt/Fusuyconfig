@@ -1,6 +1,6 @@
 proxies:
 
-- name: fusuy
+- name: PREMIUM 7 HARI
   server: id.v2vless.site
   port: 443
   type: vless
@@ -14,4 +14,19 @@ proxies:
     path: /vless
     headers:
       Host: id.v2vless.site
+
+- name: 30_DAY
+  server: sg2.6n6.net
+  port: 443
+  type: trojan
+  password: 9cefeaa0-34bf-11f0-89cc-1239d0255272
+  sni: instagram.fcgk3-2.fna.fbcdn.net
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg2.6n6.net
+
 
