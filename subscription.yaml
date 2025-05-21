@@ -28,44 +28,6 @@ proxies:
     path: /howdy
     headers:
       Host: sg2.6n6.net
-- name: 🔰🔰🔰🔰RIFAL---01🔰🔰🔰🔰
-  server: id.v2vless.site
-  port: 443
-  type: vless
-  uuid: I_Love_🇵🇸_sshOcean_33dd
-  tls: true
-  servername: instagram.fcgk3-2.fna.fbcdn.net
-  skip-cert-verify: true
-  udp: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless-grpc
-
-- name: 💥Rifal 02🌞
-  server: ul-singapore1.09vpn.com
-  port: 2087
-  type: trojan
-  password: u9469120998
-  sni: instagram.fcgk3-2.fna.fbcdn.net
-  skip-cert-verify: true
-  udp: true
-
-- name: ☢️Rifal 03 ☢️
-  server: id.xvmess.site
-  port: 443
-  type: vmess
-  uuid: I_Love_🇵🇸_sshOcean_6967
-  alterId: 0
-  cipher: none
-  tls: true
-  servername: instagram.fcgk3-2.fna.fbcdn.net
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /vmess#DONT-FORGET-TO-SUPPORT-SSHOCEAN.COM-TO-KEEP-THIS-SERVER-ALIVE
-    headers:
-      Host: id.xvmess.site
 
 - name: 🫣Rifal 04 🔰🔰30_Day😀
   server: sg2.6n6.net
