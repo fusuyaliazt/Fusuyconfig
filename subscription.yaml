@@ -1,5 +1,5 @@
 proxies:
-- name: 💥PREMIUM✅
+- name: 💥PREMIUM✅SG
   server: sgvvip2.serverpremium.web.id
   port: 443
   type: vmess
@@ -15,3 +15,21 @@ proxies:
     path: /vmess
     headers:
       Host: sgvvip2.serverpremium.web.id
+      
+- name: ❤️usuy_PREM_INDONESIA❤️
+  server: idnusa.serverpremium.web.id
+  port: 443
+  type: vmess
+  uuid: 455fd71c-89b4-4d49-8e36-c562103d0f48
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: instagram.fcgk3-2.fna.fbcdn.net
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: idnusa.serverpremium.web.id
+
