@@ -33,3 +33,19 @@ proxies:
     headers:
       Host: idnusa.serverpremium.web.id
 
+- name: GRPC
+  server: idnusa.serverpremium.web.id
+  port: 443
+  type: vmess
+  uuid: 455fd71c-89b4-4d49-8e36-c562103d0f48
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: instagram.fcgk3-2.fna.fbcdn.net
+  skip-cert-verify: true
+  udp: true
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vmess
+
+
