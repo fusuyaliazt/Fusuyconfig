@@ -1,9 +1,9 @@
 proxies:
-- name: 💥PREMIUM✅SG
+- name: usutaliazt3_SG prem
   server: sgvvip2.serverpremium.web.id
   port: 443
   type: vmess
-  uuid: a31dd989-3c86-48de-8f39-b2ed7a5659c3
+  uuid: acec565e-9ceb-4aef-9dcd-3f4a12a3b296
   alterId: 0
   cipher: auto
   tls: true
@@ -15,7 +15,7 @@ proxies:
     path: /vmess
     headers:
       Host: sgvvip2.serverpremium.web.id
-      
+
 - name: ❤️usuy_PREM_INDONESIA❤️
   server: idnusa.serverpremium.web.id
   port: 443
