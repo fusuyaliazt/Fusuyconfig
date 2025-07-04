@@ -32,7 +32,7 @@ proxies:
     grpc-service-name: vmess
 
 - name: FREEEEE🌎
-  server: ul-singapore2.09vpn.com
+  server: ul-singapore1.09vpn.com
   port: 2087
   type: trojan
   password: u6370392961
@@ -43,7 +43,7 @@ proxies:
   ws-opts:
     path: /trojango
     headers:
-      Host: ul-singapore2.09vpn.com
+      Host: ul-singapore1.09vpn.com
 
 
 
