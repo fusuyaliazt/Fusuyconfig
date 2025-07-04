@@ -31,7 +31,7 @@ proxies:
   grpc-opts:
     grpc-service-name: vmess
 
-- name: FREEEEE
+- name: Free
   server: ul-singapore1.09vpn.com
   port: 2087
   type: trojan
