@@ -45,5 +45,15 @@ proxies:
     headers:
       Host: ul-singapore1.09vpn.com
 
+- name: Shadowsocks ssl
+  type: ss
+  server: 140.99.130.152
+  port: 3602
+  cipher: aes-256-cfb
+  password: u8149259238
+  plugin: obfs
+  plugin-opts:
+    mode: tls
+    host: instagram.fcgk3-2.fna.fbcdn.net
 
 
