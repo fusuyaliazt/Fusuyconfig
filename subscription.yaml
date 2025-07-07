@@ -56,7 +56,7 @@ proxies:
     mode: tls
     host: instagram.fcgk3-2.fna.fbcdn.net
 
-- name: Shadowsocks ocen
+- name: SS Ocean
   type: ss
   server: pl.ssocks.wiki
   port: 1443
