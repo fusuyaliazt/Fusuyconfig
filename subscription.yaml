@@ -56,15 +56,4 @@ proxies:
     mode: tls
     host: instagram.fcgk3-2.fna.fbcdn.net
 
-- name: SS Ocean
-  type: ss
-  server: pl.ssocks.wiki
-  port: 1443
-  cipher: chacha20-letf-poly1305
-  password: ODRmY
-  plugin: obfs
-  plugin-opts:
-    mode: tls
-    host: instagram.fcgk3-2.fna.fbcdn.net
-
 
