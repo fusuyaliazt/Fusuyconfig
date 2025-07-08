@@ -67,4 +67,21 @@ proxies:
     mode: tls
     host: instagram.fcgk3-2.fna.fbcdn.net
 
+- name: Id prem
+  server: idnusa.serverpremium.web.id
+  port: 443
+  type: vmess
+  uuid: 293bdf89-3ec3-4d8c-8898-516c651f4715
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: instagram.fcgk3-2.fna.fbcdn.net
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: idnusa.serverpremium.web.id
+
 
