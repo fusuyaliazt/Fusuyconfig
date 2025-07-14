@@ -31,11 +31,11 @@ proxies:
   grpc-opts:
     grpc-service-name: vmess
 
-- name: Free sg2
-  server: ul-singapore2.09vpn.com
+- name: Free sg1
+  server: ul-singapore1.09vpn.com
   port: 2087
   type: trojan
-  password: u7342218369
+  password: u7125518990
   sni: instagram.fcgk3-2.fna.fbcdn.net
   skip-cert-verify: true
   udp: true
@@ -43,7 +43,7 @@ proxies:
   ws-opts:
     path: /trojango
     headers:
-      Host: ul-singapore2.09vpn.com
+      Host: ul-singapore1.09vpn.com
 
 - name: Shadowsocks ssl
   type: ss
