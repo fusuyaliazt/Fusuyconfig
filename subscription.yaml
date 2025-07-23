@@ -16,34 +16,23 @@ proxies:
     headers:
       Host: sgvvip2.serverpremium.web.id
 
-- name: SG GRPC
-  server: sgvvip2.serverpremium.web.id
+- name: NORJAY_sg
+  server: ava.game.naver.com
   port: 443
   type: vmess
-  uuid: acec565e-9ceb-4aef-9dcd-3f4a12a3b296
+  uuid: 3d87331e-4384-4cfd-b9ae-a367f214f9d6
   alterId: 0
   cipher: auto
   tls: true
-  servername: instagram.fcgk3-2.fna.fbcdn.net
-  skip-cert-verify: true
-  udp: true
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vmess
-
-- name: Free sg1
-  server: ul-singapore1.09vpn.com
-  port: 2087
-  type: trojan
-  password: u7125518990
-  sni: instagram.fcgk3-2.fna.fbcdn.net
+  servername: ava.game.naver.com.sgvvip3.serverpremium.web.id
   skip-cert-verify: true
   udp: true
   network: ws
   ws-opts:
-    path: /trojango
+    path: /vmess
     headers:
-      Host: ul-singapore1.09vpn.com
+      Host: ava.game.naver.com.sgvvip3.serverpremium.web.id
+
 
 - name: Shadowsocks ssl
   type: ss
