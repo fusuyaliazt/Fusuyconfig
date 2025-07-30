@@ -1,21 +1,31 @@
 proxies:
-- name: SG prem
-  server: sgvvip2.serverpremium.web.id
-  port: 443
-  type: vmess
-  uuid: acec565e-9ceb-4aef-9dcd-3f4a12a3b296
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: instagram.fcgk3-2.fna.fbcdn.net
+- name: u6538602253_trojan-go_100
+  server: ul-singapore1.09vpn.com
+  port: 2087
+  type: trojan
+  password: u9834951510
+  sni: instagram.fcgk3-4.fna.fbcdn.net
   skip-cert-verify: true
   udp: true
   network: ws
   ws-opts:
-    path: /vmess
+    path: /trojango
     headers:
-      Host: sgvvip2.serverpremium.web.id
+      Host: ul-singapore2.09vpn.com
 
+- name: u6538602253
+  server: ul-singapore2.09vpn.com
+  port: 2087
+  type: trojan
+  password: u1000475371
+  sni: instagram.fcgk3-4.fna.fbcdn.net
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojango
+    headers:
+      Host: ul-singapore2.09vpn.com
 - name: NORJAY_sg
   server: ava.game.naver.com
   port: 443
