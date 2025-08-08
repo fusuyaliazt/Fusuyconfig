@@ -26,22 +26,22 @@ proxies:
     path: /trojango
     headers:
       Host: ul-singapore2.09vpn.com
-- name: NORJAY_sg
-  server: ava.game.naver.com
+- name: iflix
+  server: sgvvip3.serverpremium.web.id
   port: 443
   type: vmess
   uuid: 3d87331e-4384-4cfd-b9ae-a367f214f9d6
   alterId: 0
   cipher: auto
   tls: true
-  servername: ava.game.naver.com.sgvvip3.serverpremium.web.id
+  servername: live.iflix.com
   skip-cert-verify: true
   udp: true
   network: ws
   ws-opts:
     path: /vmess
     headers:
-      Host: ava.game.naver.com.sgvvip3.serverpremium.web.id
+      Host: sgvvip3.serverpremium.web.id
 
 
 - name: Shadowsocks ssl
@@ -63,7 +63,7 @@ proxies:
   alterId: 0
   cipher: auto
   tls: true
-  servername: instagram.fcgk3-2.fna.fbcdn.net
+  servername: live.iflix.com
   skip-cert-verify: true
   udp: true
   network: ws
