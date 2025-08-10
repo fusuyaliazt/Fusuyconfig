@@ -1,5 +1,5 @@
 proxies:
-- name: free
+- name: freeeer
   server: ul-singapore1.09vpn.com
   port: 2083
   type: trojan
