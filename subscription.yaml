@@ -1,10 +1,10 @@
 proxies:
-- name: u6538602253_trojan-go_100
+- name: free
   server: ul-singapore1.09vpn.com
-  port: 2087
+  port: 2083
   type: trojan
-  password: u9834951510
-  sni: instagram.fcgk3-4.fna.fbcdn.net
+  password: u4405864112
+  sni: live.iflix.com
   skip-cert-verify: true
   udp: true
   network: ws
@@ -12,20 +12,7 @@ proxies:
     path: /trojango
     headers:
       Host: ul-singapore2.09vpn.com
-
-- name: u6538602253
-  server: ul-singapore2.09vpn.com
-  port: 2087
-  type: trojan
-  password: u1000475371
-  sni: instagram.fcgk3-4.fna.fbcdn.net
-  skip-cert-verify: true
-  udp: true
-  network: ws
-  ws-opts:
-    path: /trojango
-    headers:
-      Host: ul-singapore2.09vpn.com
+      
 - name: iflix
   server: sgvvip3.serverpremium.web.id
   port: 443
